@@ -1,0 +1,237 @@
+
+body {
+    padding-top: 70px; 
+    overflow-x: hidden;
+}
+
+.container-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.card-custom {
+    width: 900px;
+    height: 600px;
+}
+
+.card-body-custom {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.product-info {
+    flex: 3;
+    padding: 20px;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image {
+    flex: 2;
+    background-size: cover;
+    background-position: center;
+    border-right: 1px solid #ddd;
+}
+
+#tittle-logo {
+    font-weight: bolder;
+}
+
+.carousel, .carousel-inner > .item > img {
+    height: 100px;
+  }
+
+/* Sugeration */
+.img-fluid {
+   
+    justify-content: center;
+}
+
+
+/* Acerca */
+.about {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    
+}
+
+.about h1, .about h2 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-family: 'Arial', sans-serif;
+    color: #6c757d;
+    text-align: justify;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.about .left, .about .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .left p, .about .right p {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.about .right p {
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .about .left, .about .right {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .left p, .about .right p {
+        margin: 20px 0 0 0;
+    }
+}
+
+
+
+/* Playeras */
+
+
+.product-clothes {
+    text-align: center;
+    padding: 15px; 
+    /* background-color: #fff; */
+    margin: 0;
+}
+
+.product-clothes img {
+    width: 100%;
+    height: auto;
+    
+    margin-bottom: 15px;
+    
+}
+
+.product-clothes p {
+    text-align: left;
+    margin: 0;
+    font-size: 13px;
+
+}
+
+/* user login */
+/* Estilo para el nombre de usuario */
+.user-name {
+    color: #007bff; 
+    font-weight: bold;
+}
+
+.user-name:hover {
+    color: #0056b3; 
+}
+
+/* Estilo para el enlace de inicio de sesión */
+.login-link {
+    color: #28a745; 
+    font-weight: bold; 
+}
+
+.login-link:hover {
+    color: #218838; 
+}
+
+/* Estilo para el enlace de registro */
+.register-link {
+    color: #dc3545; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.register-link:hover {
+    color: #c82333; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para el dropdown de usuario */
+.dropdown-menu {
+    background-color: #f8f9fa; /* Fondo del menú desplegable */
+}
+
+.dropdown-item {
+    color: #343a40; /* Color del texto de los elementos del menú desplegable */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef; /* Fondo al pasar el cursor */
+    color: #343a40; /* Color del texto al pasar el cursor */
+}
+
+/* login */
+
+/* Estilos personalizados para el formulario de login */
+
+body {
+    background-color: #f8f9fa; /* Color de fondo de la página */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* Borde de la tarjeta */
+    border-radius: 0.25rem; /* Radio de borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 50px; /* Margen superior */
+}
+
+.card-header {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    font-size: 1.25rem; /* Tamaño de fuente del encabezado */
+    font-weight: 500; /* Grosor de la fuente del encabezado */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Radio de borde de los campos de entrada */
+    border: 1px solid #ced4da; /* Borde de los campos de entrada */
+    padding: 10px; /* Relleno de los campos de entrada */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border-color: #007bff; /* Color del borde del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    border-radius: 0.25rem; /* Radio de borde del botón */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+    border-color: #0056b3; /* Color del borde al pasar el cursor */
+}
+
+.btn-link {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 500; /* Grosor de la fuente */
+}
+
+.btn-link:hover {
+    color: #0056b3; /* Color del enlace al pasar el cursor */
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+

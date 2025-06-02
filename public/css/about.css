@@ -1,0 +1,58 @@
+/* Acerca */
+
+.about {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1, .about h2 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-family: 'Arial', sans-serif;
+    color: #6c757d;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about .left, .about .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .left p, .about .right p {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.about .right p {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .about .left, .about .right {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .left p, .about .right p {
+        margin: 20px 0 0 0;
+    }
+}
+
+
+
